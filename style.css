@@ -1,0 +1,74 @@
+:root {
+    --main-bg-color: #f3ede5;
+    --fontnav:  'Inter', sans-serif;
+    --butto-color: #133416;
+}
+body {
+    background: var(--main-bg-color);
+    margin: 8vh;
+}
+
+nav {
+    display: flex;
+    font-family: var(--fontnav);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding-left: 70px ;
+    padding-right: 70px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    margin: 10px;
+}
+nav #signIn {
+    border: none;
+}
+
+.forFree {
+    background: var(--butto-color);
+    border: none;
+    border-radius: 5px;
+    color: #f3ede5;
+    padding: 15px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    font-family: var(--fontnav);
+    font-weight: 600;
+}
+
+main h1 mark {
+    background:none;
+    color: #F7B300;
+}
+main h1 {
+    font-size: 60pt;
+    margin-bottom: 0px;
+}
+main p {
+    color: #bfbab5;
+    font-size: 15pt;
+}
+footer {
+text-align: center;
+}
+footer p{
+    font-family: var(--fontnav);
+    color: #bfbab5;
+}
+footer img {
+    margin: 25px;
+}
