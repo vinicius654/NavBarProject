@@ -50,9 +50,7 @@ main {
     font-family: var(--fontnav);
     font-weight: 600;
 }
-main div {
-    width: auto;
-}
+
 
 main h1 mark {
     background:none;
