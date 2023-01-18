@@ -46,8 +46,8 @@ nav #signIn {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+   
     font-family: var(--fontnav);
     font-weight: 600;
 }
