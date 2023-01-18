@@ -51,9 +51,7 @@ main {
     font-weight: 600;
 }
 
-main div #heroImg {
-    width: 50%;
-}
+
 main h1 mark {
     background:none;
     color: #F7B300;
